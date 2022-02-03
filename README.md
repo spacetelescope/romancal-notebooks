@@ -58,6 +58,7 @@ For additional installation instructions, please see https://github.com/spacetel
 ## Contributing to the Notebooks Repository
 
 If you wish to make changes or add content to the notebooks in this repository, please:
+
 	1. Fork this repository to your own account. The 'fork' button is in the upper right-hand corner.
 	2. Clone your forked version to your machine.
 	3. Make a branch with a name descriptive of the changes you'll be making.
