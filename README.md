@@ -39,11 +39,21 @@ Activate the environment and install ipython and numpy
 
 #### Step 4: Installing the romancal pipeline
 
+In most cases, you will want to install the last stable release of the pipeline. This can be done via pip.
+
 To install the latest public release of the pipeline:
 
 	% pip install romancal
 
-The correct versions of the dependencies will be pulled in. For detailed installation instructions including how to install the development version of the pipeline, or a specific version number, please see https://github.com/spacetelescope/romancal.
+The correct versions of the dependencies will be pulled in. 
+
+If you would like to install the development version of the pipeline to test recent changes, you can do that by installing the main branch of the github repository for romancal.
+
+	% pip install git+https://github.com/spacetelescope/romancal
+
+For clarity, it is a good idea to create a new environment when working with the development version of romancal with a name that indicates that the environment has the dev version installed (e.g 'romancal-dev').
+
+For additional installation instructions, please see https://github.com/spacetelescope/romancal.
 
 ## Contributing to the Notebooks Repository
 
